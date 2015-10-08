@@ -1,0 +1,95 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.logo {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  border: 5px solid #000;
+}
+
+h1 {
+  padding: 1rem 1rem 1rem 0.7rem;
+  margin: 0;
+  font-family: 'Forum', cursive;  font-weight: 300;
+  font-size: 1.5em;
+  color: white;
+  background-color: black;
+}
+
+nav ul li{
+  display: block;
+  background-color: black;
+  width: 100%;
+}
+
+
+nav ul li a:hover {
+  color: black;
+  background-color: white;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  display: block;
+  padding: 0.70em;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.sk8 {
+  display: block;
+  padding: 0.5em;
+  padding-top: 0;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+
+.sk8-1 {
+  width: 48%;
+  float: left;
+}
+
+.sk8-2 {
+  width: 48%;
+  float: right;
+}
+
+p {
+  background-color: white;
+  padding: 15px;
+  font-family: 'Oxygen', sans-serif;
+  margin: 0;
+}
+
+br {
+  padding: 1em;
+}
