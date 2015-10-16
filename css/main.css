@@ -20,7 +20,7 @@ body {
   margin: 0;
 }
 
-.logo {
+.img {
   width: 100%;
   display: block;
   margin: 0 auto;
@@ -96,7 +96,7 @@ h2 {
 
 .icons a {
   width: 3em;
-  display: block;
+  display: inline-block;
   transition: all 0.2s;
 }
 
@@ -107,7 +107,7 @@ h2 {
 
 @media only screen and (min-width: 35em) {
 
-  .logo {
+  .img {
     width: 560px;
     margin: 0 auto;
   }
@@ -170,7 +170,7 @@ h2 {
 
 @media only screen and (min-width: 60em) {
 
-  .logo {
+  .img {
     margin: 0;
     width: 700px;
   }
@@ -236,7 +236,7 @@ h2 {
       padding-bottom: 0;
     }
 
-    .logo {
+    .img {
       display: none;
     }
 
